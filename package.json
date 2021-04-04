@@ -1,0 +1,22 @@
+{
+  "name": "reactive-bicycle",
+  "version": "1.0.0",
+  "description": "JS framework to build web apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkgraycat/reactive-bicycle.git"
+  },
+  "author": "darkgraycat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darkgraycat/reactive-bicycle/issues"
+  },
+  "homepage": "https://github.com/darkgraycat/reactive-bicycle#readme",
+  "dependencies": {
+    "webpack": "^5.30.0"
+  }
+}
