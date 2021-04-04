@@ -1,3 +1,7 @@
-import Main from './lib/main.js'
+import RB from './lib/reactive-bicycle'
 
-const m = new Main('hello world')
+console.log(RB)
+
+const block = new RB.Block()
+
+block.print()
