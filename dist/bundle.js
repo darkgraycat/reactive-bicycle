@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _lib_reactive_bicycle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib/reactive-bicycle */ \"./src/lib/reactive-bicycle.js\");\n\r\n\r\n\r\nconst app = document.querySelector('#app')\r\n\r\nconsole.log(app)\r\n\r\nconst block1 = new _lib_reactive_bicycle__WEBPACK_IMPORTED_MODULE_0__.default.Block('red', 'its a red block')\r\nconst block2 = new _lib_reactive_bicycle__WEBPACK_IMPORTED_MODULE_0__.default.Block('blue', 'its a blue block')\r\n\r\nconsole.log(block1)\r\n\r\napp.appendChild(block1.node)\r\napp.appendChild(block2.node)\n\n//# sourceURL=webpack://reactive-bicycle/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _lib_reactive_bicycle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib/reactive-bicycle */ \"./src/lib/reactive-bicycle.js\");\n\r\n\r\n\r\nconst app = document.querySelector('#app')\r\n\r\nconsole.log(app)\r\n\r\nconst block1 = new _lib_reactive_bicycle__WEBPACK_IMPORTED_MODULE_0__.default.Block('red', 'its a red block')\r\nconst block2 = new _lib_reactive_bicycle__WEBPACK_IMPORTED_MODULE_0__.default.Block('blue', 'its a blue block')\r\n\r\nconsole.log(block1)\r\n\r\napp.appendChild(block1.node)\r\napp.appendChild(block2.node)\r\n\r\nblock1.print()\n\n//# sourceURL=webpack://reactive-bicycle/./src/index.js?");
 
 /***/ }),
 

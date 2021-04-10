@@ -12,3 +12,5 @@ console.log(block1)
 
 app.appendChild(block1.node)
 app.appendChild(block2.node)
+
+block1.print()
