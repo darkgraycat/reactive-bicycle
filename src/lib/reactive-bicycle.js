@@ -1,6 +1,4 @@
 import Block from './elements/block.js'
-// import Element from './elements/element.js'
+import Element from './elements/element.js'
 
-export default {
-	Block
-}
+export default { Block, Element }

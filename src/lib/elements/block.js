@@ -1,9 +1,8 @@
 import Element from './element.js'
 
 export default class Block extends Element {
-	constructor() {
-		super()
-		console.log('this is my block')
+	constructor(color, text) {
+		super('400px', '400px', color, text)
 	}
 
 	print() {
